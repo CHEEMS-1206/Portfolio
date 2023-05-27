@@ -1,0 +1,160 @@
+/* responsiveness  */
+@media screen and (max-width: 1300px) {
+  .home {
+    background-position: 85% center;
+    background-size: 40% 60%;
+  }
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .home {
+    background-position: 90% center;
+    background-size: 35% 55%;
+  }
+  .navBar .menus li a {
+    display: inline-block;
+    margin: 20px 15px;
+    font-size: 18px;
+  }
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .home {
+    background-position: 95% center;
+    background-size: 35% 50%;
+  }
+  .max-width {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .home {
+    background-image: none;
+  }
+  .navBar .menus {
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.5s ease;
+  }
+  .navBar .menus.active {
+    left: 0;
+  }
+  .navBar .menus li {
+    display: block;
+  }
+  .navBar .menus li a {
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 25px;
+  }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active::before {
+    content: "X";
+  }
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+  .home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+  }
+  .max-width {
+    max-width: 800px;
+  }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 60px auto;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+
+  .services .services-content .card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+
+  .skills .skills-content .column,
+  .contact .contact-content .column {
+    width: calc(95% - 10px);
+    margin: 0px auto;
+  }
+  .skills .skills-content .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .max-width {
+    padding: 0px 23px;
+  }
+  .home .home-content .text-2 {
+    font-size: 55px;
+  }
+  .home .home-content .text-3 {
+    font-size: 32px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+  }
+  .about .about-content .right {
+    padding: 10px;
+  }
+
+  .services .services-content .card {
+    width: calc(70% - 20px);
+    /* margin-bottom: 20px; */
+    margin: 0px auto 20px auto;
+  }
+
+  .skills .skills-content .column {
+    width: calc(95% - 10px);
+    margin: 0px auto;
+  }
+  .skills .skills-content .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .max-width {
+    padding: 0px 23px;
+  }
+  .home .home-content .text-2 {
+    font-size: 48px;
+  }
+  .home .home-content .text-3 {
+    font-size: 27px;
+  }
+
+  .services .services-content .card {
+    width: calc(95% - 20px);
+    /* margin-bottom: 20px; */
+    margin: 0px auto 20px auto;
+  }
+}
