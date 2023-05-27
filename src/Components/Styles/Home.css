@@ -1,0 +1,52 @@
+/* section-1 'home' styling  */
+
+.home {
+  display: flex;
+  background-image: url("https://raw.githubusercontent.com/rahulvijay81/portfolio/main/src/Assets/Web-designer-1024x821.webp");
+  background-repeat: no-repeat;
+  background-position: 80% center;
+  background-color: black;
+  background-size: 40% 70%;
+  height: calc(100vh );
+  min-height: 500px;
+  color: white;
+  font-family: "ubuntu", "sans-serif";
+}
+.home .max-width {
+  margin: auto 0px auto 40px;
+}
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+.home .home-content .text-2 {
+  font-size: 65px;
+  margin-left: -3px;
+  font-weight: 700;
+}
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0px;
+}
+.home .home-content .text-3 span {
+  color: var(--secondaryColor);
+  font-weight: 800;
+}
+.home .home-content a {
+  display: inline-block;
+  background-color: var(--secondaryColor);
+  padding: 12px 36px;
+  font-size: 25px;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: "ubuntu";
+  transition: all 900ms ease;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 2px solid  var(--secondaryColor);
+}
+.home .home-content a:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
