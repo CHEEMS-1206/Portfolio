@@ -7,6 +7,7 @@
 
 .about .title::after {
   content: "Who am I?";
+  color : var(--secondaryColor)
 }
 
 .about .about-content .left {

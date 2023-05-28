@@ -1,0 +1,115 @@
+/* contact section stylings */
+.contact .title::after {
+  content: "Contact me";
+  background-color: white;
+  color : var(--secondaryColor)
+}
+.contact .title::before {
+  background-color: var(darkBackgroundColor);
+}
+.contact {
+  padding-top: 130px;
+  background-color: white;
+  color: black;
+}
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
+.contact .contact-content .left .text,
+.contact .contact-content .right .text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--secondaryColor)
+}
+.contact .contact-content .left p {
+  text-align: justify;
+}
+.contact .contact-content .left .icons {
+  margin: 10px 0px;
+}
+.contact .contact-content .left .icons .row {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.contact .contact-content .left .icons .row .info {
+  margin-left: 30px;
+  font-size: 15px;
+}
+.contact .contact-content .left .icons .row i {
+  color: var(--secondaryColor);
+  font-size: 25px;
+  font-weight: 600;
+}
+.contact .contact-content .left .icons .row .head {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--secondaryColor)
+}
+.contact .contact-content .left .icons .row .subtitle {
+  font-weight: 400;
+  color: #111;
+}
+.contact .contact-content .left .icons .row .connectLinks{
+    color: #111;
+    margin-right: 20px;
+}
+.contact .right form .fields {
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .name {
+  margin-right: 10px;
+}
+.contact .right form .email {
+  margin-left: 10px;
+}
+.contact .right form .textarea {
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .field input,
+.contact .right form .fields .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--secondaryColor);
+  outline: none;
+  border-radius: 6px;
+  padding: 0px 15px;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  margin-bottom: 15px;
+  resize: none;
+  overflow: auto;
+}
+.contact .right form .button {
+  height: 47px;
+  width: 170px;
+}
+.contact .right form .button button {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  border: 3px solid var(--secondaryColor);
+  color: white;
+  background-color: var(--secondaryColor);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.contact .right form .button button:hover {
+  background-color: white;
+  color: var(--secondaryColor);
+}
