@@ -9,7 +9,7 @@ const routerName = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/Aboutme",
+    path: "/About-me",
     element: <Home />,
   },
   {
@@ -17,7 +17,7 @@ const routerName = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/Technicalskills",
+    path: "/Technical-skills",
     element: <Home />,
   },
   {
