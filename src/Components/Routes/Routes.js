@@ -1,7 +1,12 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-import Home from "../View/Sections/Home/Home.js";
+import Home from "../View/Sections/Home/Home";
+import AboutMe from "../View/Sections/AboutMe/AboutMe";
+import Projects from '../View/Sections/Projects/Projects'
+import TechnicalSkills from "../View/Sections/TechnicalSkills/TechnicalSkills.js";
+import Technologies from "../View/Sections/Technologies/Technologies";
+import Contact from "../View/Sections/Contact/Contact";
 
 const routerName = createBrowserRouter([
   {
@@ -10,23 +15,23 @@ const routerName = createBrowserRouter([
   },
   {
     path: "/About-me",
-    element: <Home />,
+    element: <AboutMe/>,
   },
   {
     path: "/Projects",
-    element: <Home />,
+    element: <Projects />,
   },
   {
     path: "/Technical-skills",
-    element: <Home />,
+    element: <TechnicalSkills />,
   },
   {
     path: "/Technologies",
-    element: <Home />,
+    element: <Technologies />,
   },
   {
     path: "/Contact",
-    element: <Home />,
+    element: <Contact />,
   },
 ]);
 

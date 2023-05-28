@@ -6,6 +6,13 @@
 --secondaryColor: #5352ed;
 --tertiaryColor: chartreuse;
 --quadrenaryColor: cyan;
+
+--darkTextColor: black;
+--lightTextColor: white;
+
+--darkBackgroundColor: black;
+--lightBackgroundColor: white;
+
 }
 
 html {
@@ -27,4 +34,56 @@ html {
 code {
   font-family: Poppins, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* all sections common styles  */
+.about,
+.services,
+.skills,
+.myworks,
+.contact,
+footer,
+.counter {
+  font-family: "poppins";
+  padding: 100px 0px;
+}
+
+.section .title {
+  position: relative;
+  text-align: center;
+  font-family: "ubuntu";
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.section .title::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 3px;
+  background-color: var(--darkBackgroundColor);
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section .title::after {
+  position: absolute;
+  font-size: 20px;
+  color: var(--darkTextColor);
+  bottom: -12px;
+  padding: 5px;
+  background-color: var(--lightBackgroundColor);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-content,
+.services .services-content,
+.skills .skills-content,
+.myworks .myworks-content,
+.contact .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
