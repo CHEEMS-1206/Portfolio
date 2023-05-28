@@ -1,8 +1,8 @@
 import React from "react";
-import "../../Styles/Home.css";
+import "../../../Styles/Home.css";
 
-import Link from "../CommonComponents/LinkComponent";
-import Menubar from "../Menubar/Menubar";
+import Link from "../../CommonComponents/LinkComponent";
+import Menubar from "../../Menubar/Menubar";
 
 function Home(props) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-import Home from "../View/Sections/Home";
+import Home from "../View/Sections/Home/Home.js";
 
 const routerName = createBrowserRouter([
   {
