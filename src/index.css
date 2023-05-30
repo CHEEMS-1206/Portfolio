@@ -87,3 +87,14 @@ footer,
   align-items: center;
   justify-content: space-between;
 }
+
+legend{
+  padding: 0 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--secondaryColor)
+}
+fieldset{
+  margin-bottom: 50px;
+  /* border:none */
+}
