@@ -12,30 +12,3 @@
 .skills .title::before {
   background-color: black;
 }
-/* skills stylings  */
-.technologies {
-  padding-top: 130px;
-  background-color: white;
-  color: black;
-}
-.technologies .title::after {
-  content: "Technologies";
-  background-color: white;
-  color: var(--secondaryColor);
-}
-.technologies .title::before {
-  background-color: black;
-}
-.technologies .max-width{
-  height: max-content;
-}
-legend{
-  padding: 0 20px;
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--secondaryColor)
-}
-fieldset{
-  margin-bottom: 50px;
-  /* border:none */
-}
