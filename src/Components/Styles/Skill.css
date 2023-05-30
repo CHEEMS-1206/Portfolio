@@ -1,0 +1,49 @@
+.skillBox {
+  width: 100%;
+  height: 110px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.skillBox  h3, .skillBox span{
+    margin: auto;
+    text-align: left;
+    width: 12%;
+    padding-left: 10px;
+    color : var(--primaryColor)
+}
+.skillBox span{
+    width: 5%;
+    font-size: 22px;
+}
+.skillImage {
+  height: 100px;
+  width: 100px;
+  margin: auto 40px;
+  border-radius: 50%;
+}
+.skillImage img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  animation: App-logo-spin infinite 10s linear;
+}
+
+.skillBox .line {
+  position: relative;
+  margin: auto;
+  height: 8px;
+  border-radius: 0px 50px 50px 0px;
+  background-color: grey;
+  width: 55%;
+}
+.skillBox .line::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  content: "";
+  height: 8px;
+  border-radius: 0px 50px 50px 0px;
+  background-color: var(--secondaryColor);
+  width: 75%;
+}
