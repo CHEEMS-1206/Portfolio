@@ -1,0 +1,15 @@
+/* styling the my works section  */
+
+.myworks {
+  background-color: white;
+  color: black;
+  padding-top: 130px;
+}
+.myworks .title::after {
+  content: "My projects";
+  background-color: white;
+  color: var(--secondaryColor);
+}
+.myworks .title::before {
+  background-color: black;
+}
