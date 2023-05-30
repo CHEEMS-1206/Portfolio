@@ -33,6 +33,28 @@
   .max-width {
     padding: 0px 50px;
   }
+  .skillBox {
+    height: 90px;
+    margin: 10px auto;
+  }
+  .skillBox h3,
+  .skillBox span {
+    width: 12%;
+    padding-left: 8px;
+    font-size: 18px;
+  }
+  .skillBox span {
+    font-size: 16px;
+  }
+  .skillImage {
+    height: 80px;
+    width: 80px;
+    margin: auto 15px;
+  }
+
+  .skillBox .line {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -110,6 +132,23 @@
   .skills .skills-content .left {
     margin-bottom: 50px;
   }
+
+  .skillBox h3,
+  .skillBox span {
+    font-size: 16px;
+  }
+  .skillBox span {
+    font-size: 14px;
+  }
+  .skillImage {
+    height: 80px;
+    width: 80px;
+    margin: auto 15px;
+  }
+
+  .skillBox .line {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 690px) {
@@ -142,6 +181,24 @@
   .skills .skills-content .left {
     margin-bottom: 50px;
   }
+
+  .skillBox h3,
+  .skillBox span {
+    width: 20%;
+    font-size: 14px;
+  }
+  .skillBox span {
+    font-size: 12px;
+  }
+  .skillImage {
+    height: 60px;
+    width: 60px;
+    margin: auto 10px;
+  }
+
+  .skillBox .line {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -159,5 +216,22 @@
     width: calc(95% - 20px);
     /* margin-bottom: 20px; */
     margin: 0px auto 20px auto;
+  }
+
+  .skillBox h3,
+  .skillBox span {
+    font-size: 14px;
+  }
+  .skillBox span {
+    font-size: 12px;
+  }
+  .skillImage {
+    height: 50px;
+    width: 50px;
+    margin: auto 8px;
+  }
+
+  .skillBox .line {
+    width: 30%;
   }
 }
