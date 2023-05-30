@@ -62,25 +62,25 @@ function Projects() {
           <fieldset>
             <legend>Full Stack Projects</legend>
             <Project
-              projectImage={ImageImports.StonePaperScissors}
-              projectName={"Stone Papers Scissors"}
+              projectImage={ImageImports.ResumeMaker}
+              projectName={"Resume Maker"}
               projectContent=" It is a simple front end game where the user has to select from Stone, Paper and Scissor corresponding to which the computer chooses randomly and the winner is decided after comparing the two choices.  Used Html and Css for the UI of the game, and Javascript for the Dom manipulation. The game is a 10 round long game where the final winner is decided on the basis of player with most round wins."
-              projectTechStack="Html, CSS, JavaScript"
-              projectVisitLink="https://stone-paper-scissor-priyanshu-singh.netlify.app/"
+              projectTechStack="Mongo-Db, Express-js, Node-js, React"
+              projectVisitLink="https://github.com/CHEEMS-1206/ResumeMakerProject"
             />
             <Project
-              projectImage={ImageImports.PasswordGenerator}
-              projectName={"Password Generator"}
+              projectImage={ImageImports.Quiz}
+              projectName={"Quiz App"}
               projectContent="It is a simple front end game where the user has to select from Stone, Paper and Scissor corresponding to which the computer chooses randomly and the winner is decided after comparing the two choices.  Used Html and Css for the UI of the game, and Javascript for the Dom manipulation. The game is a 10 round long game where the final winner is decided on the basis of player with most round wins."
-              projectTechStack="Html, CSS, JavaScript"
-              projectVisitLink=""
+              projectTechStack="Mongo-Db, Express-js, Node-js, React"
+              projectVisitLink="https://github.com/CHEEMS-1206/QUIZ_APP_MERN_PROJECT"
             />
             <Project
-              projectImage={ImageImports.StickyNotes}
-              projectName={"Sticky Notes"}
+              projectImage={ImageImports.Memories}
+              projectName={"Memories"}
               projectContent="It is a simple front end game where the user has to select from Stone, Paper and Scissor corresponding to which the computer chooses randomly and the winner is decided after comparing the two choices.  Used Html and Css for the UI of the game, and Javascript for the Dom manipulation. The game is a 10 round long game where the final winner is decided on the basis of player with most round wins."
-              projectTechStack="Html, CSS, JavaScript"
-              projectVisitLink=""
+              projectTechStack="Mongo-Db, Express-js, Node-js, React"
+              projectVisitLink="https://github.com/CHEEMS-1206/PET_SHOP_API_PROJECT"
             />
           </fieldset>
         </div>
