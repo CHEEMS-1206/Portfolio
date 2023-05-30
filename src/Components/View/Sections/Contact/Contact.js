@@ -2,6 +2,9 @@ import React from "react";
 import "../../../Styles/Contact.css";
 import Menubar from "../../Menubar/Menubar";
 
+// importing fontawesome icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Contact() {
   return (
     <>
@@ -19,7 +22,7 @@ function Contact() {
               </p>
               <div className="icons">
                 <div className="row">
-                  {/* <i className="fa-solid fa-user"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-user" />
                   <div className="info">
                     <div className="head">Name</div>
                     <div className="subtitle">Priyanshu singh</div>
@@ -27,7 +30,7 @@ function Contact() {
                 </div>
 
                 <div className="row">
-                  {/* <i className="fa-solid fa-map-marker-alt"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-map-marker-alt" />
                   <div className="info">
                     <div className="head">Address</div>
                     <div className="subtitle">
@@ -38,7 +41,7 @@ function Contact() {
                 </div>
 
                 <div className="row">
-                  {/* <i className="fa-solid fa-envelope"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-envelope" />
                   <div className="info">
                     <div className="head">Email</div>
                     <div className="subtitle">Priyanshusingh9291@gmail.com</div>
@@ -46,7 +49,7 @@ function Contact() {
                 </div>
 
                 <div className="row">
-                  {/* <i className="fa-solid fa-envelope"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-envelope" />
                   <div className="info">
                     <div className="head">Phone no.</div>
                     <div className="subtitle">8448783842</div>
@@ -54,7 +57,7 @@ function Contact() {
                 </div>
 
                 <div className="row">
-                  {/* <i className="fa-solid fa-user"></i> */}
+                  <FontAwesomeIcon icon="fa-solid fa-link"/>
                   <div className="info">
                     <div className="head">Connect</div>
                     <div className="subtitle">
@@ -86,7 +89,7 @@ function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://priyanshusingh.epizy.com/Portfolio/"
+                  value="https://portfolio-priyanshu-singh.netlify.app/"
                 />
                 <input
                   type="hidden"

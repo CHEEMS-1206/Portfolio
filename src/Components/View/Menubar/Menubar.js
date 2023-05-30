@@ -3,17 +3,32 @@ import React from "react";
 // importing styles
 import "../../Styles/Menubar.css";
 
+// importing fontawesome icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // importing components
 import Link from "../CommonComponents/LinkComponent";
 
 // <!-- navbar  -->
 function Menubar() {
+
+  const menuBarHandler = (e) => {
+    const ul = document.querySelector(".navBar .menus");
+    if (e.target.id === "bars") {
+      ul.classList.toggle("active");
+      e.target.id = "close";
+    } else if (e.target.id === "close") {
+      ul.classList.toggle("active");
+      e.target.id = "bars";
+    }
+  };
+
   return (
     <div className="navBar">
       <div className="max-width">
         {/* // logo component  */}
         <div className="logo">
-          <a href="/" >
+          <a href="/">
             Port<span>folio.</span>
           </a>
         </div>
@@ -44,7 +59,11 @@ function Menubar() {
         </ul>
         {/* // close button  */}
         <div className="menu-btn">
-          <i className="fa-solid fa-bars"></i>
+          <FontAwesomeIcon
+            icon="fa-solid fa-bars"
+            id="bars"
+            onClick={menuBarHandler}
+          />
         </div>
       </div>
     </div>
