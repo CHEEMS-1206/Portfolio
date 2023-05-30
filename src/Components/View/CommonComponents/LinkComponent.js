@@ -18,9 +18,6 @@ function Link(props) {
     } else if (e.target.id === "TechnicalSkills") {
       pathToMove("/Technical-skills");
       console.log("Technical skills");
-    } else if (e.target.id === "Technologies") {
-      pathToMove("/Technologies");
-      console.log("Technologies");
     } else if (e.target.id === "Contact") {
       pathToMove("/Contact");
       console.log("Contact");

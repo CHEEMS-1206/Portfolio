@@ -5,7 +5,6 @@ import Home from "../View/Sections/Home/Home";
 import AboutMe from "../View/Sections/AboutMe/AboutMe";
 import Projects from '../View/Sections/Projects/Projects'
 import TechnicalSkills from "../View/Sections/TechnicalSkills/TechnicalSkills";
-import Technologies from "../View/Sections/Technologies/Technologies";
 import Contact from "../View/Sections/Contact/Contact";
 
 const routerName = createBrowserRouter([
@@ -24,10 +23,6 @@ const routerName = createBrowserRouter([
   {
     path: "/Technical-skills",
     element: <TechnicalSkills />,
-  },
-  {
-    path: "/Technologies",
-    element: <Technologies />,
   },
   {
     path: "/Contact",

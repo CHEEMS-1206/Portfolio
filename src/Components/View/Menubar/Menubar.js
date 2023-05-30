@@ -51,9 +51,6 @@ function Menubar() {
             />
           </li>
           <li>
-            <Link className="menu-btn" value="Technologies" id="Technologies" />
-          </li>
-          <li>
             <Link className="menu-btn" value="Contact" id="Contact" />
           </li>
         </ul>
