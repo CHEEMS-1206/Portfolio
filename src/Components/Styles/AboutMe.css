@@ -2,7 +2,7 @@
 .about{
     background-color: var(--lightBackgroundColor);
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .about .title::after {
