@@ -37,6 +37,11 @@ import stonePaperScissors from "./ProjectImages/stonePaperScissors.png";
 import stopwatch from "./ProjectImages/stopwatch.png";
 import toDoList2 from "./ProjectImages/toDolist2.png";
 
+// full stack projects
+import ResumeMaker from './ProjectImages/resumeMaker.png'
+import memories from "./ProjectImages/memories.png";
+import quiz from "./ProjectImages/quiz.png";
+
 const ImageImports = {
     DeveloperImage : devImage,
 
@@ -68,7 +73,11 @@ const ImageImports = {
     PasswordGenerator : passwordGenerator,
     StickyNotes : stickyNotes,
     StonePaperScissors : stonePaperScissors,
-    Stopwatch : stopwatch
+    Stopwatch : stopwatch,
+
+    Quiz:quiz,
+    ResumeMaker: ResumeMaker,
+    Memories:memories,
 }
 
 export default ImageImports;
