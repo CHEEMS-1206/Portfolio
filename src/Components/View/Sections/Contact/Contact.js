@@ -81,7 +81,6 @@ function Contact() {
             <div className="column right">
               <div className="text">Reach me</div>
               <form
-                action="https://formsubmit.co/88073b03496cf74166e8bc7284d9b4ca"
                 method="post"
               >
                 <input type="hidden" name="_captcha" value="false" />
@@ -89,7 +88,6 @@ function Contact() {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://portfolio-priyanshu-singh.netlify.app/"
                 />
                 <input
                   type="hidden"
