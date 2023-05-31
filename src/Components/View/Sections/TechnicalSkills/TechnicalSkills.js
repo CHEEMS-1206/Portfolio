@@ -88,8 +88,8 @@ function TechnicalSkills() {
               techImage={ImageImports.MongoDb}
             />
             <Skill
-              techName={"Postgre SQL"}
-              techPercentage="50%"
+              techName={"Postgre-SQL"}
+              techPercentage="60%"
               techImage={ImageImports.PostgreSql}
             />
             <Skill
@@ -101,7 +101,7 @@ function TechnicalSkills() {
           <fieldset>
             <legend className="legend">VCS and Deployement</legend>
             <Skill
-              techName={"Git/GitHub"}
+              techName={"Git-GitHub"}
               techPercentage="95%"
               techImage={ImageImports.Github}
             />

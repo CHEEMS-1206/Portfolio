@@ -5,16 +5,17 @@
   display: flex;
   justify-content: space-evenly;
 }
-.skillBox  h3, .skillBox span{
-    margin: auto;
-    text-align: left;
-    width: 12%;
-    padding-left: 10px;
-    color : var(--primaryColor)
+.skillBox h3,
+.skillBox span {
+  margin: auto;
+  text-align: left;
+  width: 12%;
+  padding-left: 10px;
+  color: var(--primaryColor);
 }
-.skillBox span{
-    width: 5%;
-    font-size: 22px;
+.skillBox span {
+  width: 5%;
+  font-size: 22px;
 }
 .skillImage {
   height: 100px;
@@ -46,4 +47,63 @@
   border-radius: 0px 50px 50px 0px;
   background-color: var(--secondaryColor);
   width: 75%;
+}
+
+/* // skill meter styling //  */
+.skillBox .line#HTML::after {
+  width: 90%;
+}
+.skillBox .line#CSS::after {
+  width: 95%;
+}
+.skillBox .line#SASS::after {
+  width: 80%;
+}
+.skillBox .line#JavaScript::after {
+  width: 90%;
+}
+.skillBox .line#Bootstrap::after {
+  width: 85%;
+}
+.skillBox .line#React::after {
+  width: 95%;
+}
+.skillBox .line#NodeJS::after {
+  width: 65%;
+}
+.skillBox .line#ExpressJS::after {
+  width: 70%;
+}
+.skillBox .line#Redis::after {
+  width: 65%;
+}
+.skillBox .line#Jenkins::after {
+  width: 65%;
+}
+.skillBox .line#Docker::after {
+  width: 70%;
+}
+.skillBox .line#Selenium::after {
+  width: 60%;
+}
+.skillBox .line#MongoDb::after {
+  width: 85%;
+}
+.skillBox .line#Postgre-SQL::after {
+  width: 60%;
+}
+.skillBox .line#MySQL::after {
+  width: 80%;
+}
+.skillBox .line#Git-GitHub::after {
+  width: 95%;
+}
+.skillBox .line#AWS::after {
+  width: 75%;
+}
+.skillBox .line#Firebase::after {
+  width: 80%;
+}
+.skillBox .line#Linux::after {
+  width: 90%;
 }
