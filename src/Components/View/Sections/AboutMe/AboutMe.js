@@ -22,20 +22,33 @@ function AboutMe() {
                 <span id="typing-2"> Software Engineer</span>.
               </div>
               <p>
-                Hey there, <br />I am a web enthusiast, and am currently a
-                junior in my bachelors at MSIT (GGSIPU). It is this passion of
-                mine that encourages me to create and develope modern web
-                solution for the welfare of the community world wide by using
-                cutting edge technologies and frameworks. Creative and
-                deliberate with my work, loves to collaborate and work in a
-                team. Proficient in making user interfaces, creating databases,
-                writing and testing codes and adding new features to codebases
-                based on user demands. Besides developement i love to play and
-                watch cricket, read books and spend time with my friends.
+                Hey there, <br />I am an undergraduate student currently in my
+                prefinal year at <b>MSIT (GGSIPU)</b>. I am a passionate Web
+                developer, and have created multiple projects using different
+                different languages, frameworks and tools, you can find them in
+                my{" "}
+                <b>
+                  <a href="https://github.com/CHEEMS-1206">GIT-Hub</a>
+                </b>{" "}
+                Repositories. Alongwith this I have also solved multiple
+                problems related to Data Structures, Algorithms and Maths using
+                C++ language on multiple coding platforms, like{" "}
+                <b>
+                  <a href="https://leetcode.com/CHEEMS-1206/">LeetCode</a>
+                </b>
+                ,{" "}
+                <b>
+                  <a href="https://www.codingninjas.com/codestudio/profile/Priyanshu1206">
+                    CodeStudio
+                  </a>
+                </b>
+                . Other than this, I have strong interests in Science and
+                Literature and like to read Books in my free time.
               </p>
               <a
-                href="https://drive.google.com/file/d/1c2CYFAoFkQRFOBGFaQXdKDVVMKiH4KTU/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gZBS0g2eo3vLJl1NBHiBG_jbldw50Ra5/view?usp=sharing"
                 download="MyResume"
+                id="resume"
               >
                 Resume
               </a>
